@@ -1,0 +1,176 @@
+{% load static %}
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+            <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+            <link rel="stylesheet" href="{% static 'css/style.css'  %}">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    </head>
+    <body>
+
+        <nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <img class='nav_img' src="static/images/logo.png" alt="" srcset="">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto pr-5">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">گھر <span class="sr-only">(current)</span></a>
+                    </li>
+
+                </ul>
+                </div>
+            </nav>
+        </nav>
+
+        <section class="sec1">
+            <div class="container">
+
+                <h2 class="sec1_1">کے ساتھ کاشت کاری، ہوشیاری کے ساتھ۔   KITOVU</h2>
+            </div>
+        </section>
+
+        <section class="sec2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 sec2_1">
+                        <h3 class=" sec2_h1 animate__animated  animate__fadeInLeft "> اپنے کھاد کے اخراجات پر 30 فیصد تک بچت کریں</h3>
+
+                            <ul class='sec2_ul' >
+                                <li >  ۱۔ اپنے کھیتوں میں صرف ضروری کھاد کی نشاندہی کریں </li>
+                                <li>۲۔ ضرورت پر مبنی کھاد اور پانی کے استعمال کی شرح کے نسخے حاصل کریں</li>
+                                <li>۳۔ اپنی پیداوار بڑھایں</li>
+                            </ul>
+
+
+
+
+                    </div>
+
+                    <div class="col-md-5">
+                        <img src="static\images\saving.jpg" alt="check me out" class="sec_img">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="sec3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="static\images\analysis1.jpg" alt="check me out" class="sec_img">
+                    </div>
+                    <div class="col-md-7 sec3_1">
+                        <h3 class=" sec3_h1">پودوں کی صحت کے تجزیے سے اپنی فصل کی پیداواری  صلاحیت بڑھایں</h3>
+
+                            <ul class='sec3_ul' >
+                                <li >۱۔ اپنی فصلوں کو لاحق خطرات کا پتہ لگانے میں مدد حاصل کریں</li>
+                                <li>۲۔  فصلوں کے تحفظ کو یقینی بنانے کے لیے ضروری اقدامات  کی شناخت میں مدد حاصل کریں</li>
+                                <li>۳۔ اپنے پودے کی صحت سے متعلق ہفتے میں دو بار معلومات حاصل کریں</li>
+                            </ul>
+
+
+
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="sec2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 sec2_1">
+                        <h3 class=" sec2_h1">  اپنے کھیت سے متعلق کھاد، اسپرے اور پانی کی درست مقدار کی معلومات حاصل کریں </h3>
+
+                            <ul class='sec2_ul' >
+                                <li > ۱۔ کھیت کے لیے بہترین کوالٹی کی کھاد اور اسپرے حاصل کریں</li>
+                                <li>۲۔ کھاد اور اسپرے بہترین قیمت پرحاصل کریں</li>
+                                <li>۳۔ مفت زرعی مشورے حاصل کریں</li>
+                            </ul>
+
+
+
+
+                    </div>
+
+                    <div class="col-md-5">
+                      <img src="static\images\drone.jpg" alt="check me out" class="sec_img">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+        <section class="sec5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ">
+
+                        <div class='sec5_1'>
+                            <h2 class="sec5_5">کیا آپ ہوشیاری سے کاشت کاری کرنا چاھتے ہیں؟</h2>
+                            <h3 class='sec5_h3_1'>KITOVU کی موبایل ایپ ڈاونلوڈ کریں</h3>
+                            <button class="btn  sec5-btn"> <img title='گوگل پلے' src="static/images/andriod.png" alt=""></button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" >
+                            <div class='sec5_form_p1'>
+                                <h2>کیا آپ ہم سے کچھ جاننا چاھتے ہیں؟</h2>
+                                    <p>   اپنا پیغام درج کریں </p>
+                                    <h1>{{bad}}</h1>
+                            </div>
+
+
+                            <form class='sec5_form' action="" method="POST">
+                              {% csrf_token %}
+                                <input class='sec5_input' type="text" name="author" id="" placeholder='نام'>
+                                <input class='sec5_input' type="tel" name="phone" id="" placeholder=' فون نمبر'>
+                                <textarea class='sec5_textarea' name='message'>یہاں ایک پیغام چھوڑ دیں </textarea>
+                                <input class='sec5_submit btn btn-primary' type="submit" value="جمع کرائیں">
+                            </form>
+
+                            <div class='sec5_form_p2'>
+                                <p class="sec5_form1">کال کرنے کے لیے "نمبر:0747748593020" پر رابطہ کریں</p>
+                                <p class="sec5_form1">   یا info@kitovu.pk پرای میل کریں </p>
+                            </div>
+
+                        </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <script src='static/js/jquery.min.js'></script>
+        <script src="static/js/popper.js"></script>
+        <script src="static/js/bootstrap.js"></script>
+    </body>
+</html>
