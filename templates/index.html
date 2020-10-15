@@ -17,7 +17,7 @@
 
         <nav>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <img class='nav_img' src="static/images/logo.png" alt="" srcset="">
+                <img class='nav_img' src="{% static 'images/logo.png' %}" alt="" srcset="">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -58,7 +58,7 @@
                     </div>
 
                     <div class="col-md-5">
-                        <img src="static\images\saving.jpg" alt="check me out" class="sec_img">
+                        <img src="{%static 'images\saving.jpg' %}" alt="check me out" class="sec_img">
                     </div>
 
                 </div>
@@ -71,7 +71,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
-                        <img src="static\images\analysis1.jpg" alt="check me out" class="sec_img">
+                        <img src="{%static 'images/analysis1.jpg'%}" alt="check me out" class="sec_img">
                     </div>
                     <div class="col-md-7 sec3_1">
                         <h3 class=" sec3_h1">پودوں کی صحت کے تجزیے سے اپنی فصل کی پیداواری  صلاحیت بڑھایں</h3>
@@ -113,7 +113,7 @@
                     </div>
 
                     <div class="col-md-5">
-                      <img src="static\images\drone.jpg" alt="check me out" class="sec_img">
+                      <img src="{% static 'images\drone.jpg'  % }" alt="check me out" class="sec_img">
                     </div>
 
                 </div>
@@ -136,7 +136,7 @@
                         <div class='sec5_1'>
                             <h2 class="sec5_5">کیا آپ ہوشیاری سے کاشت کاری کرنا چاھتے ہیں؟</h2>
                             <h3 class='sec5_h3_1'>KITOVU کی موبایل ایپ ڈاونلوڈ کریں</h3>
-                            <button class="btn  sec5-btn"> <img title='گوگل پلے' src="static/images/andriod.png" alt=""></button>
+                            <button class="btn  sec5-btn"> <img title='گوگل پلے' src="{%static 'images/andriod.png' %}" alt=""></button>
                         </div>
                     </div>
 
@@ -167,6 +167,8 @@
 
             </div>
         </section>
+
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam debitis aperiam facilis omnis ab. Nemo, atque deleniti enim ab accusamus voluptates consequuntur est accusantium expedita eaque dolorum alias necessitatibus excepturi?
 
 
         <script src='static/js/jquery.min.js'></script>
