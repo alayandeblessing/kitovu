@@ -63,8 +63,8 @@
 /* section one end here */
 
 .sec2{
-/*
-    background-image: url(../img/more_bg.jpg); */
+
+    background-image: url(../img/more_bg.jpg);
     background-color:  white;
     color: #053A1C;
 }
