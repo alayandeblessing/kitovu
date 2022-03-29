@@ -19,3 +19,8 @@ def home(request):
     context = {'form':form}
 
     return render(request, 'index.html', context)
+
+
+def about ( request):
+
+    return render(request, 'about ')
